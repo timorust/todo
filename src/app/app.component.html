@@ -1,0 +1,7 @@
+<div>
+  <h1>todosApp</h1>
+  <h2>Angular EventEmitter</h2>
+  <tl-add-item (taskTitle$)="addNewTask($event)"></tl-add-item>
+  <tl-todo-list [listToDisplay]="todoList" (deleteItem$)="deleteAll($event)"></tl-todo-list>
+</div>
+

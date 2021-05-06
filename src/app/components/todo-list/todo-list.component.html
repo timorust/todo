@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let item of listToDisplay">
+      <tl-todo-item
+        (deleteThisItem$)="deleteItem($event)" [itemToDisplay]="item"></tl-todo-item>
+  </li>
+</ul>
