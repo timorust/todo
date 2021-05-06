@@ -1,1 +1,0 @@
-{"version":3,"sources":["./styles.scss"],"names":[],"mappings":"AAAA;EACE;AACF,C","file":"styles.css","sourcesContent":["body {\n  font-family: 'Poppins', sans-serif;\n}\n"],"sourceRoot":"webpack:///"}
